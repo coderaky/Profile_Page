@@ -84,6 +84,25 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.link,
+                    color: Colors.teal.shade900,
+                    size: 40,
+                  ),
+                  title: Text(
+                    'www.coderaky.com',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      fontWeight: FontWeight.bold,
+                      fontSize: 30,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
